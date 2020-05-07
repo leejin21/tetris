@@ -5,6 +5,7 @@
 My main language is python, but I thought maybe I should not settle down and learn more, so that I can survive in this world.
 I started thinking about why not develop a game project?
 so I planned to make super easy game: tetris, which other developers has developed the game for decades.
+Also, I used this tutorial https://ui.toast.com/weekly-pick/ko_20191216/.
 
 So my goal for this project is:
 
@@ -21,7 +22,7 @@ Maybe I would add some features if I am free.
 -   Basic tetris features
 
 1. basic frame
-    - board: (10, 20)
+    - ~~board: (10, 20)~~
     - tetromino: I, J, L, O, S, T, Z
 2. basic action
     - (soft drop) As time pass, tetromino goes down

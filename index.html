@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+
+    <body>
+        <div class="grid">
+            <!-- grid에 canvas, 그리고 div(right-column)이 있음 -->
+            <canvas id="board" class="game-board" width = 300 height= 600></canvas>
+            <div class="right-column">
+                <div>
+                    <h1>TETRIS</h1>
+                    <p>Score: <span id="score">0</span></p>
+                    <!-- TODO: 이 next canvas의 역할 알아내기 -->
+                    <p>Lines: <span id="lines">0</span></p>
+                    <p>Level: <span id="level">0</span></p>
+                    <canvas id="next" class="next"></canvas>
+                </div>
+                <!--  button의 onclick function play()는 js function. 여기서 어떻게 다른 디렉토리의 js function을 불러옴? -->
+                <button onclick="play()" class="play-button">Play</button>
+            </div>
+        </div>
+    </body>
+</html>
